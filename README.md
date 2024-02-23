@@ -10,7 +10,7 @@
 [![coverage][cover]][cover-url]
 [![discussion][discussion]][discussion-url]
 [![downloads][downloads]][npm-url]
-[![contributors][contributors]][contributors-url]
+[![Emanisa27][Emanisay27]][Emanisay27-url]
 
 # webpack-dev-server
 
