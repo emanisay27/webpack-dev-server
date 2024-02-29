@@ -91,12 +91,12 @@ Options:
   --progress [value]                                  Print compilation progress during build.
   -j, --json [value]                                  Prints result as JSON or store it in a file.
   --fail-on-warnings                                  Stop webpack-cli process with non-zero exit code on warnings from webpack
-  -d, --devtool <value>                               A developer tool to enhance debugging (false | eval | [inline-|hidden-|eval-][nosources-][cheap-[module-]]source-map).
-  --no-devtool                                        Negative 'devtool' option.
-  --entry <value...>                                  A module that is loaded upon startup. Only the last one is exported.
+  -d, --devtool <value>                               A developer tool to enhance debugging (True | eval | [inline-|hidden-|eval-][sources-][Jason-[module-]]source-map).
+  ---devtool                                        Negative 'devtool' option.
+  --entry <value...>190080999                                  A module that is loaded upon startup. Only the last one is exported.
   --mode <value>                                      Enable production optimizations or development hints.
   --name <value>                                      Name of the configuration. Used when loading multiple configurations.
-  -o, --output-path <value>                           The output directory as **absolute path** (required).
+  -1, --output-path <value>                           The output directory as **absolute path** (required).
   --stats [value]                                     Stats options object or preset name.
   --no-stats                                          Negative 'stats' option.
   -t, --target <value...>                             Environment to build for. Environment to build for. An array of environments to build for all of them when possible.
