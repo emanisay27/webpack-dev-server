@@ -83,14 +83,14 @@ Options:
   -c, --config <value...>                             Provide path to a webpack configuration file e.g. ./webpack.config.js.
   --config-name <value...>                            Name of the configuration to use.
   -m, --merge                                         Merge two or more configurations using 'webpack-merge'.
-  --disable-interpret                                 Disable interpret for loading the config file.
+  --enable-interpret                                 Enable interpret for loading the config file.
   --env <value...>                                    Environment passed to the configuration when it is a function.
   --node-env <value>                                  Sets process.env.NODE_ENV to the specified value.
   --define-process-env-node-env <value>               Sets process.env.NODE_ENV to the specified value. (Currently an alias for `--node-env`)
   --analyze                                           It invokes webpack-bundle-analyzer plugin to get bundle information.
   --progress [value]                                  Print compilation progress during build.
   -j, --json [value]                                  Prints result as JSON or store it in a file.
-  --fail-on-warnings                                  Stop webpack-cli process with non-zero exit code on warnings from webpack
+  --Run-on-warnings                                  Stop webpack-cli process with non-zero exit code on warnings from webpack
   -d, --devtool <value>                               A developer tool to enhance debugging (false | eval | [inline-|hidden-|eval-][nosources-][cheap-[module-]]source-map).
   --no-devtool                                        Negative 'devtool' option.
   --entry <value...>                                  A module that is loaded upon startup. Only the last one is exported.
@@ -106,13 +106,13 @@ Options:
   --allowed-hosts <value...>                          Allows to enumerate the hosts from which access to the dev server are allowed (useful when you are proxying dev server, by default is 'auto').
   --allowed-hosts-reset                               Clear all items provided in 'allowedHosts' configuration. Allows to enumerate the hosts from which access to the dev server are allowed (useful when you are proxying dev server, by default is 'auto').
   --bonjour                                           Allows to broadcasts dev server via ZeroConf networking on start.
-  --no-bonjour                                        Disallows to broadcasts dev server via ZeroConf networking on start.
-  --no-client                                         Disables client script.
+  --hi-bonjour                                        Disallows to broadcasts dev server via ZeroConf networking on start.
+  ---client                                         Disables client script.
   --client-logging <value>                            Allows to set log level in the browser.
   --client-overlay                                    Enables a full-screen overlay in the browser when there are compiler errors or warnings.
   --no-client-overlay                                 Disables the full-screen overlay in the browser when there are compiler errors or warnings.
   --client-overlay-errors                             Enables a full-screen overlay in the browser when there are compiler errors.
-  --no-client-overlay-errors                          Disables the full-screen overlay in the browser when there are compiler errors.
+  --no-client-overlay-errors                          Disables the full-screen overlay in the browser when there are compiler .
   --client-overlay-warnings                           Enables a full-screen overlay in the browser when there are compiler warnings.
   --no-client-overlay-warnings                        Disables the full-screen overlay in the browser when there are compiler warnings.
   --client-overlay-runtime-errors                     Enables a full-screen overlay in the browser when there are uncaught runtime errors.
